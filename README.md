@@ -29,11 +29,25 @@ The analysis focuses on several key questions about the Boston housing market:
 
 ### Tasks and Analysis
 #### Descriptive Statistics and Visualizations
-**Boxplot for MEDV** Helps understand the distribution of median home values.
-**Bar Plot for CHAS** Visualizes the proportion of properties adjacent to the Charles River.
-**Boxplot for MEDV vs. AGE** Shows the median home values across different building age groups.
-**Scatter Plot for NOX vs. INDUS** Examines the relationship between industrial activity and environmental impact.
-**Histogram for PTRATIO** Provides the distribution of the pupil-teacher ratio across towns.
+##### Boxplot for MEDV
+- **Description:** Helps understand the distribution of median home values.
+- **Insight:** Provides insights into the spread and central tendency of median home values in the dataset.
+
+##### Bar Plot for CHAS
+- **Description:** Visualizes the proportion of properties adjacent to the Charles River.
+- **Insight:** Allows for comparison of the number of properties bounded by the Charles River and those that are not.
+
+##### Boxplot for MEDV vs. AGE
+- **Description:** Shows the median home values across different building age groups.
+- **Insight:** Helps analyze how the median home values vary with the age of the buildings.
+
+##### Scatter Plot for NOX vs. INDUS
+- **Description:** Examines the relationship between industrial activity and environmental impact.
+- **Insight:** Helps identify any potential correlation between nitric oxide concentrations and the proportion of non-retail business acres per town.
+
+##### Histogram for PTRATIO
+- **Description:** Provides the distribution of the pupil-teacher ratio across towns.
+- **Insight:** Helps understand the variability in pupil-teacher ratios across different towns in Boston.
 
 ### Hypothesis Testing
 T-test: Checks if there's a significant difference in the median value of homes by the river.
