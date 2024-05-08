@@ -1,38 +1,41 @@
-#Boston Housing Market Analysis
-Overview
-This project provides a comprehensive analysis of the Boston Housing dataset. The dataset features several variables from the Boston area and is widely used to benchmark machine-learning algorithms. Our goal is to understand the factors affecting the median value of owner-occupied homes and explore the relationships between various features through descriptive statistics, visualizations, and hypothesis testing.
+# Boston Housing Market Analysis
+### Overview
+This project provides a comprehensive analysis of the Boston Housing dataset. 
 
-Dataset Description
+### Dataset Description
 The Boston Housing dataset contains the following variables:
 
-CRIM: Per capita crime rate by town.
-ZN: Proportion of residential land zoned for lots over 25,000 sq.ft.
-INDUS: Proportion of non-retail business acres per town.
-CHAS: Charles River dummy variable (1 if tract bounds river; 0 otherwise).
-NOX: Nitric oxides concentration (parts per 10 million).
-RM: Average number of rooms per dwelling.
-AGE: Proportion of owner-occupied units built prior to 1940.
-DIS: Weighted distances to five Boston employment centres.
-RAD: Index of accessibility to radial highways.
-TAX: Full-value property-tax rate per $10,000.
-PTRATIO: Pupil-teacher ratio by town.
-LSTAT: % lower status of the population.
-MEDV: Median value of owner-occupied homes in $1000's.
-Objectives
+**CRIM:** Per capita crime rate by town.
+**ZN:** Proportion of residential land zoned for lots over 25,000 sq.ft.
+**INDUS:** Proportion of non-retail business acres per town.
+**CHAS:** Charles River dummy variable (1 if tract bounds river; 0 otherwise).
+**NOX:** Nitric oxides concentration (parts per 10 million).
+**RM:** Average number of rooms per dwelling.
+**AGE:** Proportion of owner-occupied units built prior to 1940.
+**DIS:** Weighted distances to five Boston employment centres.
+**RAD:** Index of accessibility to radial highways.
+**TAX:** Full-value property-tax rate per $10,000.
+**PTRATIO:** Pupil-teacher ratio by town.
+**LSTAT:** % lower status of the population.
+**MEDV:** Median value of owner-occupied homes in $1000's.
+
+### Objectives
 The analysis focuses on several key questions about the Boston housing market:
 
-Impact of proximity to the Charles River on the median value of homes.
-Differences in home values based on the age of the buildings.
-Relationship between industrial activity and nitric oxide concentrations.
-Influence of the distance to employment centers on home values.
-Tasks and Analysis
-Descriptive Statistics and Visualizations
-Boxplot for MEDV: Helps understand the distribution of median home values.
-Bar Plot for CHAS: Visualizes the proportion of properties adjacent to the Charles River.
-Boxplot for MEDV vs. AGE: Shows the median home values across different building age groups.
-Scatter Plot for NOX vs. INDUS: Examines the relationship between industrial activity and environmental impact.
-Histogram for PTRATIO: Provides the distribution of the pupil-teacher ratio across towns.
-Hypothesis Testing
+Is there a significant difference in the median value of houses bounded by the Charles river or not?
+Is there a difference in median values of houses of each proportion of owner-occupied units built before 1940?
+Can we conclude that there is no relationship between Nitric oxide concentrations and the proportion of non-retail business acres per town?
+What is the impact of an additional weighted distance to the five Boston employment centres on the median value of owner-occupied homes?
+
+### Tasks and Analysis
+#### Descriptive Statistics and Visualizations
+**Boxplot for MEDV** Helps understand the distribution of median home values.
+**Bar Plot for CHAS** Visualizes the proportion of properties adjacent to the Charles River.
+**Boxplot for MEDV vs. AGE** Shows the median home values across different building age groups.
+**Scatter Plot for NOX vs. INDUS** Examines the relationship between industrial activity and environmental impact.
+**Histogram for PTRATIO** Provides the distribution of the pupil-teacher ratio across towns.
+
+### Hypothesis Testing
 T-test: Checks if there's a significant difference in the median value of homes by the river.
 ANOVA: Analyzes differences in home values across various ages of properties.
 Pearson Correlation: Tests the relationship between nitric oxide concentrations and non-retail business acres.
