@@ -36,11 +36,11 @@ The analysis focuses on several key questions about the Boston housing market:
 - Histogram for PTRATIO
 
 ### Hypothesis Testing
-T-test: Checks if there's a significant difference in the median value of homes by the river.
-ANOVA: Analyzes differences in home values across various ages of properties.
-Pearson Correlation: Tests the relationship between nitric oxide concentrations and non-retail business acres.
-Regression Analysis: Determines the impact of distance to employment centers on home values.
-Conclusions
+- T-test: Checks if there's a significant difference in the median value of homes by the river.
+- ANOVA: Analyzes differences in home values across various ages of properties.
+- Pearson Correlation: Tests the relationship between nitric oxide concentrations and non-retail business acres.
+- Regression Analysis: Determines the impact of distance to employment centers on home values.
+**Conclusions:**
 For each hypothesis tested, conclusions are drawn based on the p-values and statistical significance, adhering to an alpha level of 0.05.
 
 Repository Structure
