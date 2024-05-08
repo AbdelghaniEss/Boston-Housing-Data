@@ -36,23 +36,26 @@ The analysis focuses on several key questions about the Boston housing market:
 - Histogram for PTRATIO
 
 ### Hypothesis Testing
-**- T-test:** Checks if there's a significant difference in the median value of homes by the river.
-**- ANOVA:** Analyzes differences in home values across various ages of properties.
-**- Pearson Correlation:** Tests the relationship between nitric oxide concentrations and non-retail business acres.
-**- Regression Analysis:** Determines the impact of distance to employment centers on home values.
+- T-test: Checks if there's a significant difference in the median value of homes by the river.
+- ANOVA: Analyzes differences in home values across various ages of properties.
+- Pearson Correlation: Tests the relationship between nitric oxide concentrations and non-retail business acres.
+- Regression Analysis: Determines the impact of distance to employment centers on home values.
+
 **Conclusions:**
 For each hypothesis tested, conclusions are drawn based on the p-values and statistical significance, adhering to an alpha level of 0.05.
 
-Repository Structure
-data/: Contains the dataset used in the analyses.
-notebooks/: Jupyter notebooks documenting the analyses and findings.
-scripts/: Python scripts for custom analysis functions.
-output/: Graphs and result summaries generated from the analyses.
-How to Use
+### Repository Structure
+- data/: Contains the dataset used in the analyses.
+- notebooks/: Jupyter notebooks documenting the analyses and findings.
+- scripts/: Python scripts for custom analysis functions.
+- output/: Graphs and result summaries generated from the analyses.
+
+### How to Use:
 Clone the repository.
 Install required dependencies.
 Run the Jupyter notebooks to view the analysis.
-Dependencies
+
+### Dependencies:
 Python
 Pandas
 NumPy
