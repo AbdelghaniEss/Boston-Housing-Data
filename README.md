@@ -45,10 +45,10 @@ The analysis focuses on several key questions about the Boston housing market:
 For each hypothesis tested, conclusions are drawn based on the p-values and statistical significance, adhering to an alpha level of 0.05.
 
 ### Repository Structure
-- data/: Contains the dataset used in the analyses.
-- notebooks/: Jupyter notebooks documenting the analyses and findings.
-- scripts/: Python scripts for custom analysis functions.
-- output/: Graphs and result summaries generated from the analyses.
+- `data/`: Contains the dataset used in the analyses.
+- `notebooks/`: Jupyter notebooks documenting the analyses and findings.
+- `scripts/`: Python scripts for custom analysis functions.
+- `output/`: Graphs and result summaries generated from the analyses.
 
 ### How to Use:
 1. Clone the repository.
