@@ -51,15 +51,15 @@ For each hypothesis tested, conclusions are drawn based on the p-values and stat
 - output/: Graphs and result summaries generated from the analyses.
 
 ### How to Use:
-Clone the repository.
-Install required dependencies.
-Run the Jupyter notebooks to view the analysis.
+1-Clone the repository.
+2-Install required dependencies.
+3-Run the Jupyter notebooks to view the analysis.
 
 ### Dependencies:
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-SciPy
-Statsmodels
+-Python
+-Pandas
+-NumPy
+-Matplotlib
+-Seaborn
+-SciPy
+-Statsmodels
