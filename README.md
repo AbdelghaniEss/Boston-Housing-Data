@@ -29,11 +29,11 @@ The analysis focuses on several key questions about the Boston housing market:
 
 ### Tasks and Analysis
 #### Descriptive Statistics and Visualizations
-##### Boxplot for MEDV
-##### Bar Plot for CHAS
-##### Boxplot for MEDV vs. AGE
-##### Scatter Plot for NOX vs. INDUS
-##### Histogram for PTRATIO
+Boxplot for MEDV
+Bar Plot for CHAS
+Boxplot for MEDV vs. AGE
+Scatter Plot for NOX vs. INDUS
+Histogram for PTRATIO
 
 ### Hypothesis Testing
 T-test: Checks if there's a significant difference in the median value of homes by the river.
